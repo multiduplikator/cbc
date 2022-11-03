@@ -4,7 +4,7 @@
 #ifndef CBC_VERSION
 
 /* Version number of project */
-#define CBC_VERSION "2.10.5"
+#define CBC_VERSION "2.10.8"
 
 /* Major Version number of project */
 #define CBC_VERSION_MAJOR 2
@@ -13,6 +13,6 @@
 #define CBC_VERSION_MINOR 10
 
 /* Release Version number of project */
-#define CBC_VERSION_RELEASE 5
+#define CBC_VERSION_RELEASE 8
 
 #endif

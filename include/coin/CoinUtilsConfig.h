@@ -5,13 +5,13 @@
 #define __CONFIG_COINUTILS_H__
 
 /* Define to 1 if stdint.h is available for CoinUtils */
-/* #undef COINUTILS_HAS_STDINT_H */
+#define COINUTILS_HAS_STDINT_H 1
 
 /* Define to 1 if stdint.h is available for CoinUtils */
 #define COINUTILS_HAS_CSTDINT 1
 
 /* Version number of project */
-#define COINUTILS_VERSION "2.11.4"
+#define COINUTILS_VERSION "2.11"
 
 /* Major Version number of project */
 #define COINUTILS_VERSION_MAJOR 2
@@ -20,7 +20,7 @@
 #define COINUTILS_VERSION_MINOR 11
 
 /* Release Version number of project */
-#define COINUTILS_VERSION_RELEASE 4
+#define COINUTILS_VERSION_RELEASE 9999
 
 /* Define to 64bit integer type */
 #define COIN_INT64_T int64_t

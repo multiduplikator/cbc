@@ -5,7 +5,7 @@
 #define __CONFIG_CGL_H__
 
 /* Version number of project */
-#define CGL_VERSION "0.60.3"
+#define CGL_VERSION "0.60"
 
 /* Major Version number of project */
 #define CGL_VERSION_MAJOR 0
@@ -14,6 +14,6 @@
 #define CGL_VERSION_MINOR 60
 
 /* Release Version number of project */
-#define CGL_VERSION_RELEASE 3
+#define CGL_VERSION_RELEASE 9999
 
 #endif

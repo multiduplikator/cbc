@@ -1,4 +1,4 @@
-/* $Id: ClpModel.hpp 2643 2020-02-03 10:03:22Z stefan $ */
+/* $Id$ */
 // Copyright (C) 2002, International Business Machines
 // Corporation and others.  All Rights Reserved.
 // This code is licensed under the terms of the Eclipse Public License (EPL).
@@ -446,6 +446,7 @@ public:
          8 - failed due to bad element check
          9 - status was 3 and stopped on time
 	 10 - status was 3 but stopped as primal feasible
+	 11 - status was 1/2 from presolve found infeasible or unbounded
          100 up - translation of enum from ClpEventHandler
      */
   inline int secondaryStatus() const
